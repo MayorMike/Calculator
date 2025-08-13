@@ -33,7 +33,13 @@ with (obj_calculator) {
         waiting_for_second = false;
     }
 }
+//Display Easter Eggs
+//If at any moment the display shows one of these values, it will do the function. Maybe cause a button to appear instead?
 if (obj_calculator.display_text == "8008135"){
+    show_message("I'm Sorry. Program will now close!")
+    game_end();
+}
+if (obj_calculator.display_text == "5318008"){
     show_message("I'm Sorry. Program will now close!")
     game_end();
 }
