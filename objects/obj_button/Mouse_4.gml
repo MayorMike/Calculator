@@ -33,3 +33,6 @@ with (obj_calculator) {
         waiting_for_second = false;
     }
 }
+if (obj_calculator.display_text == "8008135"){
+    game_end();
+}
