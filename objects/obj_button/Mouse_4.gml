@@ -32,6 +32,9 @@ with (obj_calculator) {
         current_operator = "";
         waiting_for_second = false;
     }
+    else if (other.label == "?"){
+        show_message_async("Good day!")
+    }
 }
 //Display Easter Eggs
 //If at any moment the display shows one of these values, it will do the function. Maybe cause a button to appear instead?
