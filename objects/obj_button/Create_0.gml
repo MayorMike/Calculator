@@ -1,2 +1,2 @@
-/// @description Insert description here
-// You can write your code in this editor
+w = 64;     // width
+h = 64;     // height
