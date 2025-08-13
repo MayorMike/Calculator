@@ -34,5 +34,6 @@ with (obj_calculator) {
     }
 }
 if (obj_calculator.display_text == "8008135"){
+    show_message("I'm Sorry. Program must close!")
     game_end();
 }
